@@ -16,5 +16,6 @@ namespace Lab_2
         {
             Type = "Квадрат";
         }
+        public override string ToString() { return this.Type + " площадью " + this.Area().ToString() + " со стороной a=" + this.PropA.ToString(); }
     }
 }

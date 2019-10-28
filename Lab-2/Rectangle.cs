@@ -25,9 +25,12 @@ namespace Lab_2
             return PropA * PropB;
         }
 
+        public override string ToString() { return this.Type + " площадью " + this.Area().ToString()+ " со сторонами a=" + this.PropA.ToString() + " b=" + this.PropB.ToString(); }
+
         public void I_Print()
         {
             Console.WriteLine(ToString());
         }
-    }
+        
+        }
 }

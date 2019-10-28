@@ -22,10 +22,11 @@ namespace Lab_2
         {
             return Math.PI * PropR * PropR;
         }
+        public override string ToString() {return this.Type + " площадью " + this.Area().ToString() + " с радиусом R=" + this.PropR.ToString(); }
 
         public void I_Print()
         {
-            Console.WriteLine(ToString());
+            Console.WriteLine(this.ToString());
         }
     }
 }

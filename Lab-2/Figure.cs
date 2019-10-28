@@ -10,6 +10,6 @@ namespace Lab_2
     {
         abstract public double Area();
         public string Type { get; protected set; }
-        public override string ToString() { return this.Type + " площадью " + this.Area().ToString(); }
+        abstract public override string ToString();
     }
 }
