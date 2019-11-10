@@ -27,10 +27,10 @@ namespace Lab_2
 
         public override string ToString() { return this.Type + " площадью " + this.Area().ToString()+ " со сторонами a=" + this.PropA.ToString() + " b=" + this.PropB.ToString(); }
 
-        public void I_Print()
+        public void Print()
         {
             Console.WriteLine(ToString());
         }
         
-        }
+    }
 }

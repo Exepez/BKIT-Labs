@@ -24,12 +24,12 @@ namespace Lab_2
             cir.PropR = 7;
 
             // Display results.
-            rct.I_Print();
-            rct1.I_Print();
-            sqr.I_Print();
-            sqr1.I_Print();
-            cir.I_Print();
-            cir1.I_Print();
+            rct.Print();
+            rct1.Print();
+            sqr.Print();
+            sqr1.Print();
+            cir.Print();
+            cir1.Print();
             Console.ReadKey();
         }
     }

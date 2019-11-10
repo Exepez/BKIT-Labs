@@ -18,4 +18,5 @@ namespace Lab_2
         }
         public override string ToString() { return this.Type + " площадью " + this.Area().ToString() + " со стороной a=" + this.PropA.ToString(); }
     }
+
 }

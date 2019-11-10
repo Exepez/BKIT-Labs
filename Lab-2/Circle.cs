@@ -24,7 +24,7 @@ namespace Lab_2
         }
         public override string ToString() {return this.Type + " площадью " + this.Area().ToString() + " с радиусом R=" + this.PropR.ToString(); }
 
-        public void I_Print()
+        public void Print()
         {
             Console.WriteLine(this.ToString());
         }

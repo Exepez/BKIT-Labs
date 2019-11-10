@@ -10,6 +10,6 @@ namespace Lab_2
     {
         abstract public double Area();
         public string Type { get; protected set; }
-        abstract public override string ToString();
+        abstract public string ToString();
     }
 }

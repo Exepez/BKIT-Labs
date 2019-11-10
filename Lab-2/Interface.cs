@@ -8,6 +8,6 @@ namespace Lab_2
 {
     interface IPrint
     {
-        void I_Print();
+        void Print();
     }
 }
