@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab_2
 {
-    class Circle : Figure, IPrint
+    public class Circle : Figure, IPrint
     {
         public Circle(double propR)
         {
@@ -22,8 +22,7 @@ namespace Lab_2
         {
             return Math.PI * PropR * PropR;
         }
-        public override string ToString() {return this.Type + " площадью " + this.Area().ToString() + " с радиусом R=" + this.PropR.ToString(); }
-
+        
         public void Print()
         {
             Console.WriteLine(this.ToString());

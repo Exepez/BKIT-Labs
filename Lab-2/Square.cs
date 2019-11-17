@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab_2
 {
-    class Square: Rectangle, IPrint
+    public class Square: Rectangle, IPrint
     {
         public Square(double A) : base(A, A)
         {
@@ -16,7 +16,7 @@ namespace Lab_2
         {
             Type = "Квадрат";
         }
-        public override string ToString() { return this.Type + " площадью " + this.Area().ToString() + " со стороной a=" + this.PropA.ToString(); }
+        
     }
 
 }
