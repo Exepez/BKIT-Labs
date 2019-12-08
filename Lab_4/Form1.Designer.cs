@@ -96,14 +96,14 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(435, 139);
+            this.textBox4.Location = new System.Drawing.Point(435, 128);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(113, 20);
             this.textBox4.TabIndex = 5;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(435, 178);
+            this.textBox5.Location = new System.Drawing.Point(435, 167);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(113, 20);
             this.textBox5.TabIndex = 6;
@@ -111,7 +111,7 @@
             // textBox6
             // 
             this.textBox6.Enabled = false;
-            this.textBox6.Location = new System.Drawing.Point(386, 237);
+            this.textBox6.Location = new System.Drawing.Point(386, 226);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(112, 20);
             this.textBox6.TabIndex = 7;
@@ -119,7 +119,7 @@
             // textBox7
             // 
             this.textBox7.Enabled = false;
-            this.textBox7.Location = new System.Drawing.Point(386, 263);
+            this.textBox7.Location = new System.Drawing.Point(386, 252);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(112, 20);
             this.textBox7.TabIndex = 8;
@@ -134,7 +134,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(48, 123);
+            this.button2.Location = new System.Drawing.Point(48, 112);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(119, 56);
             this.button2.TabIndex = 10;
@@ -154,7 +154,7 @@
             // 
             // Отчет
             // 
-            this.Отчет.Location = new System.Drawing.Point(557, 275);
+            this.Отчет.Location = new System.Drawing.Point(582, 255);
             this.Отчет.Name = "Отчет";
             this.Отчет.Size = new System.Drawing.Size(121, 30);
             this.Отчет.TabIndex = 12;
@@ -165,7 +165,7 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(43, 309);
+            this.listBox1.Location = new System.Drawing.Point(68, 307);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(635, 95);
             this.listBox1.TabIndex = 13;
@@ -201,7 +201,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(288, 123);
+            this.label5.Location = new System.Drawing.Point(288, 112);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(260, 13);
             this.label5.TabIndex = 17;
@@ -210,7 +210,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(366, 162);
+            this.label6.Location = new System.Drawing.Point(366, 151);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(110, 13);
             this.label6.TabIndex = 18;
@@ -219,7 +219,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(200, 240);
+            this.label7.Location = new System.Drawing.Point(200, 229);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(180, 13);
             this.label7.TabIndex = 19;
@@ -228,7 +228,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(247, 266);
+            this.label8.Location = new System.Drawing.Point(247, 255);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(133, 13);
             this.label8.TabIndex = 20;
@@ -238,7 +238,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(796, 425);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);

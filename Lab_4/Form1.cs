@@ -22,7 +22,7 @@ namespace Lab_5
 
         List<string> list = new List<string>();
 
-       
+
         public static List<ParallelSearchResult> ArrayThreadTask(object paramObj)
         {
             ParallelSearchThreadParam param = (ParallelSearchThreadParam)paramObj;
@@ -307,5 +307,7 @@ namespace Lab_5
         {
 
         }
+
+       
     }
 }
